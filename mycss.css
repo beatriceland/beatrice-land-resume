@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+}
+
+.side-widgets {
+  padding: 10px;
+}
+
+.box-top {
+  background: gray;
+}
+.box-body {
+  background: lightgray;
+}

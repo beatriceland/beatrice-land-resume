@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Beatrice Land's Resume</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
-    </head>
-    <body>
-        <h1>Beatrice Land</h1>
-        <h4>230 Twinlake Drive, Sunnyvale, CA 94089 • 805.798.3818 • beatriceemeryland@gmail.com</h4>
-        <h2>Education</h2>
-        <h2>Skills</h2>
-        <h2>Experience</h2>
-        <div>
-            <form id="messageForm">
-                <p>Leave a note to let me know you stopped by!</p>
-                <div class="form-group">
-                    <label for="noteName">Name</label>
-                    <input type="text" class="form-control" id="noteName" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="noteText">Message</label>
-                    <textarea class="form-control" id="noteText" placeholder="Message for Beatrice" rows="3"> </textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Note to Beatrice</button>
-            </form>
+  <head>
+    <meta charset="utf-8">
+    <title>Beatrice Land's Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-9">
+          <h1>Beatrice Land</h1>
+          <h4>230 Twinlake Drive, Sunnyvale, CA 94089 • 805.798.3818 • beatriceemeryland@gmail.com</h4>
+          <h2>Education</h2>
+          <h2>Skills</h2>
+          <h2>Experience</h2>
+
         </div>
-        <script src="main.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <div class="col-3 side-widgets">
+                    
+            <form id="messageForm">
+              <div class="box-top">
+                <h5>Leave a note to let me know you stopped by!</h5>
+              </div>
+              <div class="box-body">
+              <div class="form-group">
+                <label for="noteName">Name</label>
+                <input type="text" class="form-control" id="noteName" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="noteText">Message</label>
+                <textarea class="form-control" id="noteText" placeholder="Message for Beatrice" rows="3"> </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Note to Beatrice</button>
+            </div>
+            </form>          
+  
+        </div>
+      </div>
+    </div>
+          <script src="main.js"></script>
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+
   </body>
 </html>
