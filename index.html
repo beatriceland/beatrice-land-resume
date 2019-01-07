@@ -6,38 +6,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mycss.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-9">
-          <h1>Beatrice Land</h1>
-          <h4>230 Twinlake Drive, Sunnyvale, CA 94089 • 805.798.3818 • beatriceemeryland@gmail.com</h4>
+    <div class="container-fluid">
+        <div class="resume">
+          <h1 class="centered">Beatrice Emery Land</h1>
+          <h5 class="centered">230 Twinlake Drive, Sunnyvale, CA 94089 • 805.798.3818 • beatriceemeryland@gmail.com</h5>
+          <hr class="breaker">
           <h2>Education</h2>
           <h2>Skills</h2>
           <h2>Experience</h2>
 
         </div>
-        <div class="col-3 side-widgets">
+        <div class="side-widgets">
+          <div class="box">
                     
             <form id="messageForm">
               <div class="box-top">
-                <h5>Leave a note to let me know you stopped by!</h5>
+                <h4 class="padded">Leave a note to let me know you stopped by!</h4>
               </div>
               <div class="box-body">
               <div class="form-group">
-                <label for="noteName">Name</label>
-                <input type="text" class="form-control" id="noteName" placeholder="Enter your name">
+                <label class="padded" for="noteName">Name</label>
+                <input type="text" style="width:75%" class="padded form-control" id="noteName" placeholder="Enter your name">
               </div>
               <div class="form-group">
-                <label for="noteText">Message</label>
-                <textarea class="form-control" id="noteText" placeholder="Message for Beatrice" rows="3"> </textarea>
+                <label class="padded" for="noteText">Message</label>
+                <textarea  id="noteText" class="padded form-control" placeholder="Message for Beatrice" rows="4"> </textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Send Note to Beatrice</button>
+              <button type="submit" class="paddded btn btn-primary">Send Note to Beatrice</button>
             </div>
-            </form>          
+            </form>
+            </div>  
+          <br/>
+          <div class="socials">
+            <a href="mailto:beatriceemeryland@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/in/beatrice-land-681585109/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/beatriceland" class="fa fa-github"></a>
+          </div>
   
-        </div>
       </div>
     </div>
           <script src="main.js"></script>
